@@ -16,6 +16,7 @@
 		53647ECF2722B4FE00ED73A3 /* ReadableTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53647ECE2722B4FE00ED73A3 /* ReadableTextTests.swift */; };
 		53647ED92722B4FE00ED73A3 /* ReadableTextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53647ED82722B4FE00ED73A3 /* ReadableTextUITests.swift */; };
 		53647EDB2722B4FE00ED73A3 /* ReadableTextUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53647EDA2722B4FE00ED73A3 /* ReadableTextUITestsLaunchTests.swift */; };
+		53647EE82722B6DC00ED73A3 /* TileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53647EE72722B6DC00ED73A3 /* TileModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		53647ED42722B4FE00ED73A3 /* ReadableTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadableTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53647ED82722B4FE00ED73A3 /* ReadableTextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadableTextUITests.swift; sourceTree = "<group>"; };
 		53647EDA2722B4FE00ED73A3 /* ReadableTextUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadableTextUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		53647EE72722B6DC00ED73A3 /* TileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				53647EC02722B4FD00ED73A3 /* Assets.xcassets */,
 				53647EC22722B4FD00ED73A3 /* LaunchScreen.storyboard */,
 				53647EC52722B4FD00ED73A3 /* Info.plist */,
+				53647EE72722B6DC00ED73A3 /* TileModel.swift */,
 			);
 			path = ReadableText;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53647EE82722B6DC00ED73A3 /* TileModel.swift in Sources */,
 				53647EBC2722B4FC00ED73A3 /* ViewController.swift in Sources */,
 				53647EB82722B4FC00ED73A3 /* AppDelegate.swift in Sources */,
 				53647EBA2722B4FC00ED73A3 /* SceneDelegate.swift in Sources */,
@@ -447,6 +451,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +480,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
