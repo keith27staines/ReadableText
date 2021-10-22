@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		53647EB82722B4FC00ED73A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53647EB72722B4FC00ED73A3 /* AppDelegate.swift */; };
 		53647EBA2722B4FC00ED73A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53647EB92722B4FC00ED73A3 /* SceneDelegate.swift */; };
-		53647EBC2722B4FC00ED73A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53647EBB2722B4FC00ED73A3 /* ViewController.swift */; };
+		53647EBC2722B4FC00ED73A3 /* ExpandableTextDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53647EBB2722B4FC00ED73A3 /* ExpandableTextDemoController.swift */; };
 		53647EBF2722B4FC00ED73A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53647EBD2722B4FC00ED73A3 /* Main.storyboard */; };
 		53647EC12722B4FD00ED73A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53647EC02722B4FD00ED73A3 /* Assets.xcassets */; };
 		53647EC42722B4FD00ED73A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53647EC22722B4FD00ED73A3 /* LaunchScreen.storyboard */; };
@@ -17,6 +17,12 @@
 		53647ED92722B4FE00ED73A3 /* ReadableTextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53647ED82722B4FE00ED73A3 /* ReadableTextUITests.swift */; };
 		53647EDB2722B4FE00ED73A3 /* ReadableTextUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53647EDA2722B4FE00ED73A3 /* ReadableTextUITestsLaunchTests.swift */; };
 		53647EE82722B6DC00ED73A3 /* TileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53647EE72722B6DC00ED73A3 /* TileModel.swift */; };
+		53647EEB2722CDD600ED73A3 /* TextTileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53647EEA2722CDD600ED73A3 /* TextTileCell.swift */; };
+		53647EED2722CE0E00ED73A3 /* TextTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53647EEC2722CE0E00ED73A3 /* TextTileView.swift */; };
+		53647EF02722CE7300ED73A3 /* DrawingConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53647EEF2722CE7300ED73A3 /* DrawingConstants.swift */; };
+		53647EF32722CFA700ED73A3 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53647EF22722CFA700ED73A3 /* MainMenuViewController.swift */; };
+		53647EF52722D08E00ED73A3 /* MenuItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53647EF42722D08E00ED73A3 /* MenuItemModel.swift */; };
+		53647EF72722D13900ED73A3 /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53647EF62722D13900ED73A3 /* MenuItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +46,7 @@
 		53647EB42722B4FC00ED73A3 /* ReadableText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadableText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53647EB72722B4FC00ED73A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53647EB92722B4FC00ED73A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		53647EBB2722B4FC00ED73A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53647EBB2722B4FC00ED73A3 /* ExpandableTextDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableTextDemoController.swift; sourceTree = "<group>"; };
 		53647EBE2722B4FC00ED73A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53647EC02722B4FD00ED73A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53647EC32722B4FD00ED73A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		53647ED82722B4FE00ED73A3 /* ReadableTextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadableTextUITests.swift; sourceTree = "<group>"; };
 		53647EDA2722B4FE00ED73A3 /* ReadableTextUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadableTextUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		53647EE72722B6DC00ED73A3 /* TileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileModel.swift; sourceTree = "<group>"; };
+		53647EEA2722CDD600ED73A3 /* TextTileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTileCell.swift; sourceTree = "<group>"; };
+		53647EEC2722CE0E00ED73A3 /* TextTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTileView.swift; sourceTree = "<group>"; };
+		53647EEF2722CE7300ED73A3 /* DrawingConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingConstants.swift; sourceTree = "<group>"; };
+		53647EF22722CFA700ED73A3 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		53647EF42722D08E00ED73A3 /* MenuItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemModel.swift; sourceTree = "<group>"; };
+		53647EF62722D13900ED73A3 /* MenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +113,15 @@
 		53647EB62722B4FC00ED73A3 /* ReadableText */ = {
 			isa = PBXGroup;
 			children = (
+				53647EF12722CF8D00ED73A3 /* Main menu */,
+				53647EEE2722CE5300ED73A3 /* Constants */,
 				53647EB72722B4FC00ED73A3 /* AppDelegate.swift */,
 				53647EB92722B4FC00ED73A3 /* SceneDelegate.swift */,
-				53647EBB2722B4FC00ED73A3 /* ViewController.swift */,
+				53647EE92722CD2D00ED73A3 /* Expandable Text Demo */,
 				53647EBD2722B4FC00ED73A3 /* Main.storyboard */,
 				53647EC02722B4FD00ED73A3 /* Assets.xcassets */,
 				53647EC22722B4FD00ED73A3 /* LaunchScreen.storyboard */,
 				53647EC52722B4FD00ED73A3 /* Info.plist */,
-				53647EE72722B6DC00ED73A3 /* TileModel.swift */,
 			);
 			path = ReadableText;
 			sourceTree = "<group>";
@@ -128,6 +141,35 @@
 				53647EDA2722B4FE00ED73A3 /* ReadableTextUITestsLaunchTests.swift */,
 			);
 			path = ReadableTextUITests;
+			sourceTree = "<group>";
+		};
+		53647EE92722CD2D00ED73A3 /* Expandable Text Demo */ = {
+			isa = PBXGroup;
+			children = (
+				53647EBB2722B4FC00ED73A3 /* ExpandableTextDemoController.swift */,
+				53647EE72722B6DC00ED73A3 /* TileModel.swift */,
+				53647EEA2722CDD600ED73A3 /* TextTileCell.swift */,
+				53647EEC2722CE0E00ED73A3 /* TextTileView.swift */,
+			);
+			path = "Expandable Text Demo";
+			sourceTree = "<group>";
+		};
+		53647EEE2722CE5300ED73A3 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				53647EEF2722CE7300ED73A3 /* DrawingConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		53647EF12722CF8D00ED73A3 /* Main menu */ = {
+			isa = PBXGroup;
+			children = (
+				53647EF22722CFA700ED73A3 /* MainMenuViewController.swift */,
+				53647EF42722D08E00ED73A3 /* MenuItemModel.swift */,
+				53647EF62722D13900ED73A3 /* MenuItemCell.swift */,
+			);
+			path = "Main menu";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +303,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53647EF32722CFA700ED73A3 /* MainMenuViewController.swift in Sources */,
 				53647EE82722B6DC00ED73A3 /* TileModel.swift in Sources */,
-				53647EBC2722B4FC00ED73A3 /* ViewController.swift in Sources */,
+				53647EF52722D08E00ED73A3 /* MenuItemModel.swift in Sources */,
+				53647EF72722D13900ED73A3 /* MenuItemCell.swift in Sources */,
+				53647EBC2722B4FC00ED73A3 /* ExpandableTextDemoController.swift in Sources */,
+				53647EED2722CE0E00ED73A3 /* TextTileView.swift in Sources */,
+				53647EEB2722CDD600ED73A3 /* TextTileCell.swift in Sources */,
 				53647EB82722B4FC00ED73A3 /* AppDelegate.swift in Sources */,
 				53647EBA2722B4FC00ED73A3 /* SceneDelegate.swift in Sources */,
+				53647EF02722CE7300ED73A3 /* DrawingConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
